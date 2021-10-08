@@ -1,0 +1,41 @@
+html{
+    scroll-behavior: smooth;
+}
+.bg-teal ,.btn-teal{
+    background:rgb(39, 155, 155) !important;
+    
+}
+.text-teal{
+    color: rgb(39, 155, 155) !important;
+}
+.carousel .carousel-indicators li {
+    width: 30px;
+    height: 5px;
+   
+    border-radius: 0%
+}
+.carousel-caption{
+    bottom: 100px;
+}
+@media (max-width : 576px){
+    .carousel-caption h5{
+        
+        font-size: 15px;
+    }
+    .carousel-caption{
+        bottom: 10px;
+    }
+    .carousel-caption p{
+        display: none;
+
+    }
+    .carousel-caption .btn-md{
+       
+    }
+}
+@media (min-width : 577px) and (max-width: 970px){
+    .carousel-caption{
+        bottom: 30px;
+    }
+
+}
